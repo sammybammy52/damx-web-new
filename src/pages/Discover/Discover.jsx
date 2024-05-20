@@ -6,6 +6,7 @@ import NavBar from "../../components/General/NavBar";
 import Loading from "../../components/Loading/Loading";
 import Footer from "../../components/General/Footer";
 import CreativesCarousel from "../../components/CreativesComponents/CreativesCarousel";
+import DiscoverNewsletter from "../../components/General/DiscoverNewsletter";
 
 const Discover = () => {
   const { getRequest } = useDataContext();
@@ -34,6 +35,7 @@ const Discover = () => {
         <>
           <NavBar />
           <CreativesCarousel media={media && media} />
+          <DiscoverNewsletter/>
           <Footer />
         </>
       )}

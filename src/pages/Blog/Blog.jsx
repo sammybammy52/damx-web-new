@@ -127,6 +127,7 @@ const Blog = () => {
                           body={i.description}
                           string={""}
                           slug={i.slug}
+                          banner={i?.banner}
                         />
                       )
                     )}

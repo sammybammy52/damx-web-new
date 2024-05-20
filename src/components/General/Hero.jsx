@@ -45,16 +45,16 @@ const Hero = () => {
             <h1
               className={`text-white font-extrabold text-4xl mb-4 leading-[45px] max-md:text-3xl`}
             >
-              Get the best <br /> gaming insights <br /> on the planet
+              Yes! <br /> We are making  <br /> a 2d game
             </h1>
             <p className={` text-tetiary mb-4`}>
               <Typed
                 loop={true}
                 strings={[
-                  "Here you can find anything gaming related",
-                  "from gaming news",
-                  "to tutorials",
-                  "and many more",
+                  "Do you want to know more about our progress?",
+                  "you can contact us via email",
+                  "or subscribe to our newsletter",
+                  // "and many more",
                 ]}
                 typeSpeed={40}
                 backSpeed={20}
